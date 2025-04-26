@@ -1,5 +1,5 @@
-import { useLocation } from "react-router"
-import { cn } from "~/lib/utils"
+import { useLocation } from "react-router";
+import { cn } from "~/lib/utils";
 
 interface Props {
     title: string
@@ -40,4 +40,4 @@ const Header = (
         </header>
     )
 }
-export default Header
+export default Header;

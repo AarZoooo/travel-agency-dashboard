@@ -1,12 +1,12 @@
 // @ts-nocheck
 
-import { SidebarComponent } from "@syncfusion/ej2-react-navigations"
-import { Link } from "react-router"
+import { SidebarComponent } from "@syncfusion/ej2-react-navigations";
+import { Link } from "react-router";
 import NavItems from "./NavItems";
 
 const MobileSidebar = () => {
-    let sidebar: SidebarComponent
-    const toggleSidebar = () => { sidebar.toggle() }
+    let sidebar: SidebarComponent;
+    const toggleSidebar = () => { sidebar.toggle(); }
 
     return (
         <div className={'mobile-sidebar wrapper'}>
@@ -36,4 +36,4 @@ const MobileSidebar = () => {
         </div>
     )
 }
-export default MobileSidebar
+export default MobileSidebar;

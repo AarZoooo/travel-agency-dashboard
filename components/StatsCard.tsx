@@ -6,8 +6,8 @@ const StatsCard = ({
     lastMonthCount,
     currentMonthCount
 }: StatsCard) => {
-    const { trend, percentage } = calculateTrendPercentage(currentMonthCount, lastMonthCount)
-    const isDecrement = trend === 'decrement'
+    const { trend, percentage } = calculateTrendPercentage(currentMonthCount, lastMonthCount);
+    const isDecrement = trend === 'decrement';
 
     return (
         <article className={'stats-card'}>
@@ -40,4 +40,4 @@ const StatsCard = ({
         </article>
     )
 }
-export default StatsCard
+export default StatsCard;

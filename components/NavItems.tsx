@@ -46,7 +46,7 @@ const NavItems = (
 
                     <button
                         onClick={() => {
-                            console.log("Log Out")
+                            console.log("Log Out");
                         }}
 
                         className="cursor-pointer"
@@ -58,4 +58,4 @@ const NavItems = (
         </section>
     )
 }
-export default NavItems
+export default NavItems;
